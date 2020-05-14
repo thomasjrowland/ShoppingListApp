@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tom's Coin-o-rama</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Welcome to Tom's Coin-o-rama!</h1>
+	
+	<div>
+		
+		<img src="nerogold.jpg" width="450" height="225"/>
+		<p>Nero, Aureus, Rome, Gold</p>
+		<p>Price: $17,250</p>
+		<button onclick="addItemToList('Nero, Aureus, Rome, Gold', 17250)">Add Item</button>
+		<button onclick="printShoppingCart()">Checkout</button>
+	
+	</div>
+	
+	<div>
+	
+		<img src="claudius.jpg" width="450" height="225"/>
+		<p>Claudius, 42-43 AD. Sestertius</p>
+		<p>Price: $10,750</p>
+		<button onclick="addItemToList('Claudius, 42-43 AD. Sestertius', 10750)">Add Item</button>
+		<button onclick="printShoppingCart()">Checkout</button>
+	
+	</div>
+	
+	<div>
+	
+		<img src="augustusden2.jpg" width="450" height="225"/>
+		<p>Augustus SILVER Cistophorus 27-26 BC Pergamon</p>
+		<p>Price: $2,500</p>
+		<button onclick="addItemToList('Augustus SILVER Cistophorus 27-26 BC Pergamon', 2500)">Add Item</button>
+		<button onclick="printShoppingCart()">Checkout</button>
+	
+	</div>
+	
+	<div>
+	
+		<img src="augustusden.jpg" width="450" height="225"/>
+		<p>AUGUSTUS AND AGRIPPA 13 BC. Denarius</p>
+		<p>Price: $13,250</p>
+		<button onclick="addItemToList('AUGUSTUS AND AGRIPPA 13 BC. Denarius', 13250)">Add Item</button>
+		<button onclick="printShoppingCart()">Checkout</button>
+	
+	</div>
+	
+	<div>
+	
+		<img src="octavianus.jpg" width="450" height="225"/>
+		<p>Octavian AR denarius Boundary-stone of Jupiter Terminus</p>
+		<p>Price: $6,100</p>
+		<button onclick="addItemToList('Octavian AR denarius Boundary-stone of Jupiter Terminus', 6100)">Add Item</button>
+		<button onclick="printShoppingCart()">Checkout</button>
+	
+	</div>
+	
+	<div>
+	
+		<img src="caligulasest.jpg" width="450" height="225"/>
+		<p>Caligula AE sestertius - The Three Sisters</p>
+		<p>Price: $7,500</p>
+		<button onclick="addItemToList('Caligula AE sestertius - The Three Sisters', 7500)">Add Item</button>
+		<button onclick="printShoppingCart()">Checkout</button>
+	
+	</div>
+	
+	<div>
+	
+		<img src="aureliussest.jpg" width="450" height="225"/>
+		<p>Marcus Aurelius SESTERTIUS 164-165 AD</p>
+		<p>Price: $2,250</p>
+		<button onclick="addItemToList('Marcus Aurelius SESTERTIUS 164-165 AD', 2250)">Add Item</button>
+		<button onclick="printShoppingCart()">Checkout</button>
+	
+	</div>
+	
+	<div id="cart">
+	</div>
+	<p id="totalLine"></p>
+
+	<script src="storescript.js"></script>
+</body>
+</html>
